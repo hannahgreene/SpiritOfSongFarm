@@ -8,7 +8,7 @@ body {
     height: 100%;
     width:90%;
     margin: auto;
-    overflow: scroll;
+    overflow:scroll;
 }
 
 #container {
@@ -19,6 +19,7 @@ body {
 
 }
 #footer{
+    /*poision:fixed*/
     bottom:0;
     left:0;
     background-color: #00007f;
