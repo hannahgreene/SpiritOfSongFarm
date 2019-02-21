@@ -5,18 +5,17 @@
 
 html,
 body {
-    padding-left:20px;
     height: 100%;
+    width:90%;
+    margin: auto;
 }
 
 #container {
-    padding-left:20px;
-    height:100%;
-    position:fixed;
     top:0;
-    padding-left: 30px;
+
 }
-#body {
+#content {
+
 }
 #footer{
     position: fixed;
@@ -24,16 +23,17 @@ body {
     left:0;
     background-color: #00007f;
     width:100%;
-    height: 100px;
+    height: 120px;
     color:#f4fef4;
-    padding-left: 30px;
+    
 
 }
- body{
+body{
     background-color: #f4fef4;
     font-family: 'Helvetica Neue', serif;
     font-size: 20px;
     color: #00007f;
+    
 }
 h1 {
     color: #7f7fff;
@@ -48,9 +48,29 @@ h2 {
     padding-bottom: 20px;
 } 
 
-meet-img {
-    float: left;
+.meet-img {
+    position:relative;
+    top:50%;
     overflow:auto;
     padding-left: 20px;
 
+}
+.alignLeft{
+    float: left;
+    padding-left: 30px;
+}
+.alignRight{
+    float: right;
+    padding-right:60px;
+}
+.clearRight {
+    clear: right;
+}
+.clearLeft {
+    clear: left;
+}
+#ft,
+.clear {
+    clear: both;
+    
 }
