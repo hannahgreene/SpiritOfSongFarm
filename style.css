@@ -14,9 +14,10 @@ body {
     height:100%;
     position:fixed;
     top:0;
+    padding-left: 30px;
 }
 #body {
-    
+    height:40%;
 }
 #footer{
     position: fixed;
@@ -42,3 +43,15 @@ h1 {
     font-size: 64px;
     padding-bottom: 50px;
 } 
+h2 {
+    color: #7f7fff;
+    font-size: 40px;
+    padding-bottom: 20px;
+} 
+
+meet-img {
+    float: left;
+    overflow:auto;
+    padding-left: 20px;
+
+}
